@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登入页面</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: #8ccccc;
+        }
+
+        a {
+            text-decoration: none;
+        }
+      
+        .a1{
+             margin-left: 650px;
+             font-size: 20px;
+             margin-top: 200px;
+         }
+         .a2{
+             width: 100px;
+           position: absolute;
+             margin-left: 720px;
+             margin-top: 70px;
+         }
+         img{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            margin-left: 890px;
+            margin-top: -70px;
+        }
+    </style>
+</head>
+
+<body>
+      <div class="a1"></div>
+      <img src="//wimg.588ku.com/gif620/20/07/01/2d05761987104dd0eac2c4a7391cf40f.gif" data-original="//wimg.588ku.com/gif620/20/07/01/2d05761987104dd0eac2c4a7391cf40f.gif" style="display: block;">
+         <a class="a2" href="https://djskj.github.io/index/
+         ">开始导航</a>
+      <script>
+          var params = location.search.substr(1);
+          var arr = params.split('=');
+          var div = document.querySelector('.a1');
+          div.innerHTML = '欢迎你!' + '\xa0\xa0\xa0' + arr[1];
+      </script>
+</body>
+
+</html>
